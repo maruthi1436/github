@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int fact=1,n;
-printf("enter a number");
-scanf("%d",&number);
-for(i=1;i<=number;i++)
+int f,n,i;
+printf("enter number");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
 {
-fact=fact*i;
+f=n*i
 }
-printf("%d",fact);
+printf("%d",f);
 return 0;
 }
+
